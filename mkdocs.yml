@@ -1,0 +1,31 @@
+site_name: Fold Craft Launcher玩家交流群
+theme:
+  name: material
+  features:
+    - header.autohide
+    - navigation.instant
+    - navigation.tracking
+    - toc.integrate
+    - navigation.nextprev
+    - footer.hidden
+
+    
+markdown_extensions:
+  - attr_list
+  - def_list
+  - toc:
+      permalink: true
+      title: 目录
+  - pymdownx.highlight:
+      use_pygments: false
+
+extra:
+  generator: false
+
+nav:
+  - 首页: index.md
+  - 群规详情: details.md
+  - 群成员行为规范: QQmember-xingwei.md
+  - FCL与MC链接跳转: download.md
+  - 额外补充: others.md
+  - QQ机器人说明: QQbot.md
