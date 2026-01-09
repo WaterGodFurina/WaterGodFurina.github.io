@@ -1,35 +1,35 @@
-姓名: 将MKDoc部署到GitHub页面
+name: Deploy MkDocs to GitHub Pages
 
-在……之上:
-推:
-分支机构: [主要的]  #当主要分支有推送时触发
+on:
+  push:
+    branches: [ main ]  # 当 main 分支有推送时触发
 
-权限:
-内容: 读
-页面: 写
-id-token: 写
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
-工作:
-部署:
-连续的: Ubuntu-最新
-步骤:
-      - 姓名: 结帐
-uses: 操作/结帐@v4
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - 姓名：设置python
-uses: 操作/setup-python@v5
-和……一起:
-python版: 3.x
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
 
-      - 姓名: 安装相依性
-跑: |
-管道安装MKDocs mkdocs-材料
+      - name: Install dependencies
+        run: |
+          pip install mkdocs mkdocs-material
 
-      - 姓名: 建置网站
-跑: MKDOC生成--严格的
+      - name: Build site
+        run: mkdocs build --strict
 
-      - 姓名: 部署到GitHub页面
-uses: poiceiris/actions-gh-pages@v4
-和……一起:
-GitHub_token: ${{secrets.GITHUB_TOKEN}}
-发布目录(_D): ./站点
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
