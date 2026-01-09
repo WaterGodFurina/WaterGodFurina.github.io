@@ -1,9 +1,10 @@
-name: Deploy MkDocs to GitHub Pages
+name: Deploy MkDocs Site to GitHub Pages
 
 on:
   push:
-    branches: [ main ]  # 当 main 分支有推送时触发
+    branches: [ main ]  # 当推送到 main 分支时触发
 
+# 授予 Actions 操作 Pages 的权限
 permissions:
   contents: read
   pages: write
@@ -13,23 +14,26 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: 📥 Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: 🐍 Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: 3.x
+          python-version: 3.11
 
-      - name: Install dependencies
+      - name: ⚙️ Install MkDocs and Material theme
         run: |
           pip install mkdocs mkdocs-material
 
-      - name: Build site
+      - name: 🏗️ Build static site
         run: mkdocs build --strict
 
-      - name: Deploy to GitHub Pages
+      - name: 🚀 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # 关键：使用你自己的 Personal Token（不是 GITHUB_TOKEN！）
+          personal_token: ${{ secrets.DEPLOY_TOKEN }}
           publish_dir: ./site
+          # 可选：指定发布分支（默认就是 gh-pages）
+          publish_branch: gh-pages
