@@ -1,7 +1,7 @@
 ### 🔗 下载站跳转
 - <a href="https://foldcraftlauncher.cn" style="color: white; background-color: #4CAF50; padding: 2px 6px; border-radius: 4px; text-decoration: none;">Fold Craft Launcher下载站</a>
 - <a href="https://www.zalithlauncher.cn/" style="color: white; background-color: #2196F3; padding: 2px 6px; border-radius: 4px; text-decoration: none;">Zalith Launcher下载站</a>
-- <a href="https://mirror.lemwood.icu/#/" style="color: white; background-color: #FFF700; padding: 2px 6px; border-radius: 4px; text-decoration: none;">柠檬镜像（下载站）</a>
+- <a href="https://mirror.lemwood.icu/#/" style="color: white; background-color: #FFF700; padding: 2px 6px; border-radius: 4px; text-decoration: none;">柠枺镜像（下载站）</a>
 
 ### 📦 资源站跳转
 - <a href="https://mcisee.top" style="color: #bb86fc; background-color: #1e1e1e; padding: 2px 6px; border-radius: 4px; text-decoration: none;">Minecraft资源站</a>
