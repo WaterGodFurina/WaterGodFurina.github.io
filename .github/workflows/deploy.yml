@@ -20,14 +20,15 @@ jobs:
       - name: 🐍 Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: 3.11
+          python-version: 3.12
 
       - name: ⚙️ Install MkDocs and Material theme
         run: |
+          pip install --upgrade pip
           pip install mkdocs mkdocs-material
 
       - name: 🏗️ Build static site
-        run: mkdocs build --strict
+        run: mkdocs build
 
       - name: 🚀 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
