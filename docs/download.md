@@ -110,18 +110,19 @@
 <!-- HTML 结构 -->
 <div class="mobile-pagination-card">
   <!-- 左侧：上一章 -->
-  <a href="/QQmember-xingwei/" class="prev-section">
+  <a href="/" class="prev-section">
     <span class="cat-text">上一页</span>
-    <span class="title-text">群成员行为规范</span>
+    <span class="title-text">首 页</span>
   </a>
 
   <!-- 中间分隔线（可选，如果不需要可以删掉<div class="divider-line"></div>这一行） -->
   <div class="divider-line"></div>
 
   <!-- 右侧：下一章 -->
-  <a href="/others/" class="next-section">
+  <a href="/QQmember-xingwei/" class="next-section">
     <span class="cat-text">下一页</span>
-    <span class="title-text">额外补充</span>
+    <span class="title-text">群成员行为规范</span>
   </a>
 </div>
+
 
