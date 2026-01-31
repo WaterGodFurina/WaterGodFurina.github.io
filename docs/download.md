@@ -111,7 +111,7 @@
 <div class="mobile-pagination-card">
   <!-- 左侧：上一章 -->
   <a href="/QQmember-xingwei/" class="prev-section">
-    <span class="cat-text">上一章</span>
+    <span class="cat-text">上一页</span>
     <span class="title-text">群成员行为规范</span>
   </a>
 
