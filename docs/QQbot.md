@@ -14,13 +14,13 @@
 **//mc.info [server]** - 查询 Java 版服务器信息
 ![mc.info](assets/img/mcinfo.jpg)
   
-**/mc.info.be [server]** - 查询基岩版服务器信息
+**//mc.info.be [server]** - 查询基岩版服务器信息
 ![mc.info.be](assets/img/mc.info.be.jpg)
   
-**/mc.player <username>** - 查询玩家信息
+**//mc.player <username>** - 查询玩家信息
 ![mc.player](assets/img/mc.player.png)
   
-**/mc.modrinth <keyword>** - 查询 Modrinth 资源
+**//mc.modrinth <keyword>** - 查询 Modrinth 资源
 ![mc.modrinth](assets/img/mc.modrinth.jpg)
 ![mc.modrinth1](assets/img/mc.modrinth1.jpg)
   
@@ -40,7 +40,7 @@
   
 - -dep: 显示依赖关系
    
-**/mc.curseforge <keyword>** - 查询 CurseForge 资源
+**//mc.curseforge <keyword>** - 查询 CurseForge 资源
 ![mc.curseforge](assets/img/mc.curseforge.jpg)
 ![mc.curseforge1](assets/img/mc.curseforge1.jpg)
   
@@ -53,13 +53,13 @@
 - -k <count:number>: 跳过结果数
   
 
-**/mcmod <keyword>** - 查询MC百科上资源
+**//mcmod <keyword>** - 查询MC百科上资源
 ![mc.mcmod](assets/img/mcmod.jpg)
 ![mc.mcmod1](assets/img/mcmod1.jpg)
   
-- /mcmod sodium <number>：跳转到指定页数
+- //mcmod sodium <number>：跳转到指定页数
   
-**/mcwiki <keyword>** - 查询mcwiki内容（调用的是ai总结，可能不准）
+**//mcwiki <keyword>** - 查询mcwiki内容（调用的是ai总结，可能不准）
 ![mc.wiki](assets/img/mcwiki.jpg)
 ![mc.wiki1](assets/img/mcwiki1.jpg)
   
@@ -67,6 +67,7 @@
 
 - 不允许在1群里面频繁调用机器人，导致影响群友正常聊天
 - 在1群里面戳一戳bot，会被禁言2个小时（不信邪的可以试试）
+- 如果有人被禁言后还恶意戳bot，有概率会被踢出群聊
 
 <style>
   /* 移动端优化的导航卡片 */
