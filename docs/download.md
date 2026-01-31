@@ -9,7 +9,6 @@
 - <a href="https://namemc.com/" style="color: white; background-color: #6200EA; padding: 2px 6px; border-radius: 4px; text-decoration: none;">namemc（皮肤下载）</a>
 - <a href="https://littleskin.cn/" style="color: white; background-color: #9BCC65; padding: 2px 6px; border-radius: 4px; text-decoration: none;">littleskin皮肤站</a>
 - <a href="https://fcw.lemwood.cn" style="color: white; background-color: #36454F ; padding: 2px 6px; border-radius: 4px; text-decoration: none;"FCL控件站</a>
-- <a href="https://dh.lemwood.cn" style="color: white; background-color: #ADD8E6; padding: 2px 6px; border-radius: 4px; text-decoration: none;">遥远的地平线模组手机适配和汉化</a>
 
 ### 📚 搜索教程
 - <a href="https://www.bilibili.com" style="color: white; background-color: #FB7299; padding: 2px 6px; border-radius: 4px; text-decoration: none;">哔哩哔哩</a>
@@ -20,6 +19,7 @@
 - <a href="https://www.mcnav.net/" style="color: white; background-color: #66BB6A; padding: 2px 6px; border-radius: 4px; text-decoration: none;">MCNav（MC超全导航站）</a>
 - <a href="https://ftzc.lemwood.cn/" style="color: white; background-color: #E3FF00; padding: 2px 6px; border-radius: 4px; text-decoration: none;">FCL控件和ZL控件互转</a>
 - <a href="https://lanrhymelog.netlify.app" style="color: white; background-color: #9CCC65; padding: 2px 6px; border-radius: 4px; text-decoration: none;">日志分析器</a>
+- <a href="https://dh.lemwood.cn" style="color: white; background-color: #ADD8E6; padding: 2px 6px; border-radius: 4px; text-decoration: none;">遥远的地平线模组手机适配和汉化</a>
 - <a href="https://github.com/FCL-Team/FoldCraftLauncher" style="color: white; background-color: #607D8B; padding: 2px 6px; border-radius: 4px; text-decoration: none;">FCL启动器项目链接（GitHub）</a>
 - <a href="https://github.com/ZalithLauncher/ZalithLauncher/" style="color: white; background-color: #607D8B; padding: 2px 6px; border-radius: 4px; text-decoration: none;">ZL启动器项目链接（GitHub）</a>
 
