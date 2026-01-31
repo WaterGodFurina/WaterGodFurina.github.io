@@ -8,7 +8,7 @@
 - <a href="https://www.curseforge.com/minecraft" style="color: white; background-color: #FF8C00; padding: 2px 6px; border-radius: 4px; text-decoration: none;">curseforge（模组下载）</a>
 - <a href="https://namemc.com/" style="color: white; background-color: #6200EA; padding: 2px 6px; border-radius: 4px; text-decoration: none;">namemc（皮肤下载）</a>
 - <a href="https://ftzc.lemwood.cn/" style="color: white; background-color: #FFEB3B; padding: 2px 6px; border-radius: 4px; text-decoration: none;">FCL控件和ZL控件互转</a>
-- <a href="https://lanrhymelog.netlify.app" style="color: white; background-color: #9BCC65; padding: 2px 6px; border-radius: 4px; text-decoration: none;">littleskin皮肤站</a>
+- <a href="https://littleskin.cn/" style="color: white; background-color: #9BCC65; padding: 2px 6px; border-radius: 4px; text-decoration: none;">littleskin皮肤站</a>
 
 ### 📚 搜索教程
 - <a href="https://www.bilibili.com" style="color: white; background-color: #FB7299; padding: 2px 6px; border-radius: 4px; text-decoration: none;">哔哩哔哩</a>
