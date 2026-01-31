@@ -8,7 +8,7 @@
 - <a href="https://www.curseforge.com/minecraft" style="color: white; background-color: #FF8C00; padding: 2px 6px; border-radius: 4px; text-decoration: none;">curseforge（模组下载）</a>
 - <a href="https://namemc.com/" style="color: white; background-color: #6200EA; padding: 2px 6px; border-radius: 4px; text-decoration: none;">namemc（皮肤下载）</a>
 - <a href="https://littleskin.cn/" style="color: white; background-color: #9BCC65; padding: 2px 6px; border-radius: 4px; text-decoration: none;">littleskin皮肤站</a>
-- <a href="fcw.lemwood.cn" style="color: white; background-color: ; padding: 2px 6px; border-radius: 4px; text-decoration: none;"FCL控件站</a>
+- <a href="fcw.lemwood.cn" style="color: white; background-color: #36454F ; padding: 2px 6px; border-radius: 4px; text-decoration: none;"FCL控件站</a>
 - <a href="dh.lemwood.cn" style="color: white; background-color: #ADD8E6; padding: 2px 6px; border-radius: 4px; text-decoration: none;">遥远的地平线模组手机适配和汉化</a>
 
 ### 📚 搜索教程
