@@ -5,13 +5,13 @@
 ## 可以使用的指令
 以下指令经过测试，可以正常使用
   
-**/mc.ver** - 查询 Minecraft 最新版本
+**//mc.ver** - 查询 Minecraft 最新版本
 ![mc.ver](assets/img/mc.ver.jpg)
   
-**/mc.status** - 查询 Minecraft 官方服务状态
+**//mc.status** - 查询 Minecraft 官方服务状态
 ![mc.status](assets/img/mc.status.jpg)
   
-**/mc.info [server]** - 查询 Java 版服务器信息
+**//mc.info [server]** - 查询 Java 版服务器信息
 ![mc.info](assets/img/mcinfo.jpg)
   
 **/mc.info.be [server]** - 查询基岩版服务器信息
